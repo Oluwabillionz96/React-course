@@ -4,6 +4,11 @@
   box-sizing: border-box;
 }
 
+body{
+  background-color:#f0fdfa;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 .nav {
   display: flex;
   align-items: center;
@@ -21,10 +26,13 @@
   list-style-type: none;
 }
 
+
+
 .hero-container {
   width: 50%;
   margin: 2% auto;
   text-align: center;
+
 }
 
 .welcome {
@@ -65,4 +73,142 @@ h1 {
 .boxes:nth-child(1) {
   background-color: teal;
   color: white;
+}
+
+.boxes:nth-child(2){
+  border: 3px solid teal;
+}
+
+.services{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+  background-color: #fff;
+  padding: 3rem 0;
+}
+
+h2{
+  font-size: 3rem;
+}
+
+.line{
+  background-color: teal;
+  height: 0.5rem;
+  width: 5rem;
+  border-radius: 30px;
+  margin: 0 auto;
+}
+
+.images{
+  display: flex;
+  gap: 2rem;
+  justify-content: space-between;
+  width: 90%;
+}
+
+img{
+  width: 300px;
+}
+
+.carrier{
+  width: 300px;
+  box-shadow: 2px 5px 5px black;
+  border-radius: 20px;
+  padding-bottom: 2rem;
+}
+
+.inner-text{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+
+.inner-text>p{
+  width: 80%;
+  /* height: 10%; */
+  margin: 0 auto;
+}
+
+.inner-text>h3{
+  text-align: center;
+}
+
+.third{
+  padding: 3rem 0;
+}
+
+.btn{
+  width: 90%;
+  display: flex;
+ align-items: center;
+ justify-content: center;
+ margin: 0 auto;
+ padding: 5rem 0;
+ gap: 5rem;
+}
+
+.btn> *{
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  border: none;
+}
+
+button:hover{
+  cursor: pointer;
+}
+
+.btn>button:nth-child(1){
+  background-color: #fff1f2;
+  height: 60px;
+}
+.btn>button:nth-child(2){
+  height: 60px;
+  background-color: #f0f9ff;
+  color: #737171;
+}
+
+.coffee{
+  text-align: center;
+}
+
+form{
+  width: 60%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+input{
+  height: 4rem;
+  background-color: #f0fdfa;
+  outline-color: #ccc;
+  border: 2px solid #cccccc;
+  border-radius: 10px;
+  padding: 0 3rem;
+}
+
+textarea{
+resize: none;
+background-color: #f0fdfa;
+border: 2px solid #cccccc;
+padding: 2rem 3rem;
+}
+
+form > button{
+  width: 25%;
+  margin: 0 auto;
+  height: 70px;
+  border-radius: 20px;
+  border: none;
+  color: white;
+  background-color: #0F172A;
+  font-weight: 700;
 }
