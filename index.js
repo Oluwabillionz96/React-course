@@ -92,7 +92,7 @@ const Section3 = () =>{
        </button>
      </div>
 
-     <form action='mailto: goodluckreuben96@gmail.com' method="post" enctype="text/plain"></>
+     <form action='mailto: goodluckreuben96@gmail.com' method="post" enctype="text/plain">
       <input type='text' name='Name' id='Name' required placeholder='Your username'/>
       <input type='email' name='email' id='email' required placeholder='email'/>
       <textarea name="message" id="message" cols='80' rows='20' placeholder='Your message'></textarea>
